@@ -1,0 +1,20 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "This is a Backend Project for learning.",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "start-dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tushar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
